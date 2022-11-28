@@ -15,6 +15,10 @@
 		6C87953C293521D20063AA32 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C87953B293521D20063AA32 /* Category.swift */; };
 		6C87953E293523320063AA32 /* StoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C87953D293523320063AA32 /* StoreModel.swift */; };
 		6C879541293525B80063AA32 /* CategoryListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C879540293525B80063AA32 /* CategoryListScreen.swift */; };
+		6C87954529352F090063AA32 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C87954429352F090063AA32 /* Product.swift */; };
+		6C879547293533A90063AA32 /* ProductListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C879546293533A90063AA32 /* ProductListScreen.swift */; };
+		6C87954A293536340063AA32 /* ProductCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C879549293536340063AA32 /* ProductCellView.swift */; };
+		6C87954C293539510063AA32 /* Locale+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C87954B293539510063AA32 /* Locale+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +31,10 @@
 		6C87953B293521D20063AA32 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		6C87953D293523320063AA32 /* StoreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreModel.swift; sourceTree = "<group>"; };
 		6C879540293525B80063AA32 /* CategoryListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListScreen.swift; sourceTree = "<group>"; };
+		6C87954429352F090063AA32 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		6C879546293533A90063AA32 /* ProductListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListScreen.swift; sourceTree = "<group>"; };
+		6C879549293536340063AA32 /* ProductCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCellView.swift; sourceTree = "<group>"; };
+		6C87954B293539510063AA32 /* Locale+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Locale+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,7 @@
 		6C87952529351D620063AA32 /* StorePlatzi */ = {
 			isa = PBXGroup;
 			children = (
+				6C879548293536250063AA32 /* Views */,
 				6C87953F293525950063AA32 /* Screens */,
 				6C87953A293521CA0063AA32 /* Models */,
 				6C879537293520D30063AA32 /* Clients */,
@@ -82,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				6C87953429351F5A0063AA32 /* URL+Extensions.swift */,
+				6C87954B293539510063AA32 /* Locale+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -99,6 +109,7 @@
 			children = (
 				6C87953B293521D20063AA32 /* Category.swift */,
 				6C87953D293523320063AA32 /* StoreModel.swift */,
+				6C87954429352F090063AA32 /* Product.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -107,8 +118,17 @@
 			isa = PBXGroup;
 			children = (
 				6C879540293525B80063AA32 /* CategoryListScreen.swift */,
+				6C879546293533A90063AA32 /* ProductListScreen.swift */,
 			);
 			path = Screens;
+			sourceTree = "<group>";
+		};
+		6C879548293536250063AA32 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6C879549293536340063AA32 /* ProductCellView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,11 +202,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C879539293520EF0063AA32 /* StoreHTTPClient.swift in Sources */,
+				6C87954A293536340063AA32 /* ProductCellView.swift in Sources */,
 				6C87953C293521D20063AA32 /* Category.swift in Sources */,
 				6C87953529351F5A0063AA32 /* URL+Extensions.swift in Sources */,
 				6C87952729351D620063AA32 /* StorePlatziApp.swift in Sources */,
 				6C879541293525B80063AA32 /* CategoryListScreen.swift in Sources */,
 				6C87953E293523320063AA32 /* StoreModel.swift in Sources */,
+				6C87954529352F090063AA32 /* Product.swift in Sources */,
+				6C879547293533A90063AA32 /* ProductListScreen.swift in Sources */,
+				6C87954C293539510063AA32 /* Locale+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
