@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		6C1A632E2935A479005C4846 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1A632D2935A479005C4846 /* Resource.swift */; };
+		6C5E792A2941A26500AE1CAC /* AddProductScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5E79292941A26500AE1CAC /* AddProductScreen.swift */; };
+		6C5E792C2941A81D00AE1CAC /* CreateProductRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5E792B2941A81C00AE1CAC /* CreateProductRequest.swift */; };
 		6C87952729351D620063AA32 /* StorePlatziApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C87952629351D620063AA32 /* StorePlatziApp.swift */; };
 		6C87952B29351D670063AA32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C87952A29351D670063AA32 /* Assets.xcassets */; };
 		6C87952E29351D670063AA32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C87952D29351D670063AA32 /* Preview Assets.xcassets */; };
@@ -24,6 +26,8 @@
 
 /* Begin PBXFileReference section */
 		6C1A632D2935A479005C4846 /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		6C5E79292941A26500AE1CAC /* AddProductScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductScreen.swift; sourceTree = "<group>"; };
+		6C5E792B2941A81C00AE1CAC /* CreateProductRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProductRequest.swift; sourceTree = "<group>"; };
 		6C87952329351D620063AA32 /* StorePlatzi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StorePlatzi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C87952629351D620063AA32 /* StorePlatziApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorePlatziApp.swift; sourceTree = "<group>"; };
 		6C87952A29351D670063AA32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -113,6 +117,7 @@
 				6C87953B293521D20063AA32 /* Category.swift */,
 				6C87953D293523320063AA32 /* StoreModel.swift */,
 				6C87954429352F090063AA32 /* Product.swift */,
+				6C5E792B2941A81C00AE1CAC /* CreateProductRequest.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -122,6 +127,7 @@
 			children = (
 				6C879540293525B80063AA32 /* CategoryListScreen.swift */,
 				6C879546293533A90063AA32 /* ProductListScreen.swift */,
+				6C5E79292941A26500AE1CAC /* AddProductScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -211,6 +217,8 @@
 				6C87953529351F5A0063AA32 /* URL+Extensions.swift in Sources */,
 				6C87952729351D620063AA32 /* StorePlatziApp.swift in Sources */,
 				6C879541293525B80063AA32 /* CategoryListScreen.swift in Sources */,
+				6C5E792A2941A26500AE1CAC /* AddProductScreen.swift in Sources */,
+				6C5E792C2941A81D00AE1CAC /* CreateProductRequest.swift in Sources */,
 				6C87953E293523320063AA32 /* StoreModel.swift in Sources */,
 				6C87954529352F090063AA32 /* Product.swift in Sources */,
 				6C879547293533A90063AA32 /* ProductListScreen.swift in Sources */,

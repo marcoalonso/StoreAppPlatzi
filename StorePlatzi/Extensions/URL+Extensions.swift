@@ -16,12 +16,17 @@ extension URL {
      static var production : URL {
          URL(string: "https://api.escuelajs.co")!
      }
+    
     static var ´default´ : URL {
         #if DEBUG
         return development
         #else
         return production
         #endif
+    }
+    
+    static var saveProduct: URL {
+        return URL(string: "https://api.escuelajs.co/api/v1/products/", relativeTo: Self.´default´)!
     }
     
     //dependiendo del schema, se creará este EndoPoint
